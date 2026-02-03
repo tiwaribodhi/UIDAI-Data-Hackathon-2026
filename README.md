@@ -78,50 +78,25 @@ This project focuses on identifying and quantifying:
 └── README.md
 ---
 
-## 🛠 Technical Architecture
+Technical Architecture
 
-- **Language:** Python  
-- **Data Processing:** Pandas, NumPy  
-- **Visualization:** Matplotlib, Seaborn, Plotly  
-- **Execution Mode:** CLI-based batch analytics  
+Language: Python
+Data Processing: Pandas, NumPy
+Visualization: Matplotlib, Seaborn, Plotly
+Execution Mode: CLI-based batch analytics
 
----
+Analytical Methodology
 
-## 🔬 Analytical Methodology
+Data Preprocessing
+Cleaning, normalization, and standardization
+Consistency checks across datasets
 
-### Data Preprocessing
-- Cleaning, normalization, and standardization  
-- Consistency checks across datasets  
+Feature Engineering
+Enrollment Intensity Index
+Child Inclusion Ratio
 
-### Feature Engineering
-- Enrollment Intensity Index  
-- Child Inclusion Ratio  
+Statistical Techniques
+Pareto Analysis (80/20 Rule)
+Quadrant Analysis
+Z-score-based outlier detection
 
-### Statistical Techniques
-- Pareto Analysis (80/20 Rule)  
-- Quadrant Analysis  
-- Z-score–based outlier detection  
-
----
-
-## 📊 Key Insights & Results
-
-- **Lifecycle Discontinuity:** Enrollment drops sharply after age 18  
-- **High Concentration:** ~4 states contribute ~50% of total activity  
-- **Efficiency Leaders:** Lakshadweep and Tamil Nadu  
-- **Hidden Inequality:** Severe pincode-level gaps masked at the state level  
-
----
-
-## 🚀 Installation & Usage
-
-### Clone Repository
-```bash
-git clone https://github.com/your-username/aadhaar-analytics-2026.git
-cd aadhaar-analytics-2026
-Install Dependencies
-pip install pandas numpy matplotlib seaborn plotly
-Run Analysis Modules
-python national_demographic.py
-python state_based_demographic_analysis.py
-python district_based_demographic_analysis.py
